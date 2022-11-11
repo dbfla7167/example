@@ -1,0 +1,444 @@
+%!Adobe-FontList 1.22
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cafe24Ohsquare
+FamilyName:Cafe24 Ohsquare
+StyleName:Bold
+FullName:Cafe24Ohsquare
+MenuName:카페24 아네모네
+StyleBits:2
+FamilyNameNative:카페24 아네모네
+StyleNameNative:Bold
+FullNameNative:카페24 아네모네
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Cafe24Ohsquare.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1753088
+FileModTime:1579583164
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Cafe24 Ohsquare
+NameArray:0,Mac,4,Cafe24 Ohsquare
+NameArray:0,Win,1,Cafe24 Ohsquare
+NameArray:0,Win,16,Cafe24 Ohsquare
+NameArray:3,Win,1,카페24 아네모네
+NameArray:3,Win,16,카페24 아네모네
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cafe24Ssurround
+FamilyName:Cafe24 Ssurround
+StyleName:Bold
+FullName:Cafe24 Ssurround
+MenuName:카페24 써라운드
+StyleBits:0
+FamilyNameNative:카페24 써라운드
+StyleNameNative:Bold
+FullNameNative:카페24 써라운드 Bold
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Cafe24Ssurround.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1330920
+FileModTime:1596174966
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Cafe24 Ssurround
+NameArray:0,Mac,4,Cafe24 Ssurround
+NameArray:0,Win,1,Cafe24 Ssurround
+NameArray:0,Win,16,Cafe24 Ssurround
+NameArray:3,Win,1,카페24 써라운드
+NameArray:3,Win,16,카페24 써라운드
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Jalnan
+FamilyName:Jalnan
+StyleName:Regular
+FullName:Jalnan
+MenuName:여기어때 잘난체
+StyleBits:0
+FamilyNameNative:여기어때 잘난체
+StyleNameNative:Regular
+FullNameNative:여기어때 잘난체
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Jalnan.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1410252
+FileModTime:1661849693
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Jalnan
+NameArray:3,Mac,4,여기어때 잘난체
+NameArray:3,Mac,18,여기어때 잘난체
+NameArray:0,Win,1,Jalnan
+NameArray:0,Win,16,Jalnan
+NameArray:3,Win,1,여기어때 잘난체
+NameArray:3,Win,16,여기어때 잘난체
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Legothick
+FamilyName:Legothick
+StyleName:Regular
+FullName:Legothick
+MenuName:Legothick
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Legothick.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:23092
+FileModTime:967292788
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,LEGothic Type
+NameArray:0,Win,1,Legothick
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Black
+FamilyName:Pretendard
+StyleName:Black
+FullName:Pretendard Black
+MenuName:Pretendard Black
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Black
+FullNameNative:Pretendard Black
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2677244
+FileModTime:1653576830
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Black
+NameArray:0,Win,1,Pretendard Black
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Bold
+FamilyName:Pretendard
+StyleName:Bold
+FullName:Pretendard Bold
+MenuName:Pretendard
+StyleBits:2
+FamilyNameNative:Pretendard
+StyleNameNative:Bold
+FullNameNative:Pretendard Bold
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2673340
+FileModTime:1653576830
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Bold
+NameArray:0,Win,1,Pretendard
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-ExtraBold
+FamilyName:Pretendard
+StyleName:ExtraBold
+FullName:Pretendard ExtraBold
+MenuName:Pretendard ExtraBold
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:ExtraBold
+FullNameNative:Pretendard ExtraBold
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2678964
+FileModTime:1653576830
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard ExtraBold
+NameArray:0,Win,1,Pretendard ExtraBold
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-ExtraLight
+FamilyName:Pretendard
+StyleName:ExtraLight
+FullName:Pretendard ExtraLight
+MenuName:Pretendard ExtraLight
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:ExtraLight
+FullNameNative:Pretendard ExtraLight
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2842404
+FileModTime:1653576830
+WeightClass:200
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard ExtraLight
+NameArray:0,Win,1,Pretendard ExtraLight
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Light
+FamilyName:Pretendard
+StyleName:Light
+FullName:Pretendard Light
+MenuName:Pretendard Light
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Light
+FullNameNative:Pretendard Light
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2817428
+FileModTime:1653576830
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Light
+NameArray:0,Win,1,Pretendard Light
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Medium
+FamilyName:Pretendard
+StyleName:Medium
+FullName:Pretendard Medium
+MenuName:Pretendard Medium
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Medium
+FullNameNative:Pretendard Medium
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2712356
+FileModTime:1653576830
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Medium
+NameArray:0,Win,1,Pretendard Medium
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Regular
+FamilyName:Pretendard
+StyleName:Regular
+FullName:Pretendard Regular
+MenuName:Pretendard
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Regular
+FullNameNative:Pretendard Regular
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2737116
+FileModTime:1653576830
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Regular
+NameArray:0,Win,1,Pretendard
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-SemiBold
+FamilyName:Pretendard
+StyleName:SemiBold
+FullName:Pretendard SemiBold
+MenuName:Pretendard SemiBold
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:SemiBold
+FullNameNative:Pretendard SemiBold
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2682940
+FileModTime:1653576830
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard SemiBold
+NameArray:0,Win,1,Pretendard SemiBold
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Thin
+FamilyName:Pretendard
+StyleName:Thin
+FullName:Pretendard Thin
+MenuName:Pretendard Thin
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Thin
+FullNameNative:Pretendard Thin
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2870652
+FileModTime:1653576830
+WeightClass:100
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Thin
+NameArray:0,Win,1,Pretendard Thin
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PretendardVariable-Regular
+FamilyName:Pretendard Variable
+StyleName:Regular
+FullName:Pretendard Variable
+MenuName:Pretendard Variable
+FamilyPrefix:PretendardVariable
+StyleBits:0
+FamilyNameNative:Pretendard Variable
+StyleNameNative:Regular
+FullNameNative:Pretendard Variable Regular
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\Pretendard.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:6803260
+FileModTime:1653576830
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Variable
+NameArray:0,Win,1,Pretendard Variable
+NameArray:0,Win,16,Pretendard Variable
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SEBANGGothic
+FamilyName:SEBANG Gothic
+StyleName:Regular
+FullName:SEBANG Gothic
+MenuName:세방고딕 Regular
+StyleBits:0
+FamilyNameNative:세방고딕
+StyleNameNative:Regular
+FullNameNative:세방고딕
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\SEBANGGothic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2005732
+FileModTime:1587521530
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SEBANG Gothic
+NameArray:3,Mac,4,세방고딕
+NameArray:0,Win,1,SEBANG Gothic Regular
+NameArray:0,Win,16,SEBANG Gothic
+NameArray:3,Win,1,세방고딕 Regular
+NameArray:3,Win,16,세방고딕
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:H2hdrM
+FamilyName:HYHeadLine-Medium
+StyleName:Regular
+FullName:HYHeadLine-Medium
+MenuName:HY헤드라인M
+StyleBits:0
+FamilyNameNative:HY헤드라인M
+StyleNameNative:Regular
+FullNameNative:HY헤드라인M
+WritingScript:Korean
+OutlineFileName:E:\KYR\lego리뉴얼 (2)\Font\hyheadlinem.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1169072
+FileModTime:1663311491
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,HYHeadLine-Medium
+NameArray:3,Win,1,HY헤드라인M
+%EndFont
+
