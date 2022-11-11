@@ -1,0 +1,555 @@
+<!DocType html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>레고리뉴얼_제품</title>
+
+<script src="https://kit.fontawesome.com/632d3e2496.js" crossorigin="anonymous"></script>
+
+<!--제이쿼리 라이브러리-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<script src="js/lego_product.js"></script>
+
+
+<!--외부정의 css-->
+<link href="css/lego_product.css" rel="stylesheet">
+<link href="css/lego_header.css" rel="stylesheet">
+<link href="css/lego_footer.css" rel="stylesheet">
+<link href="css/lego_reset.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <!--상단-->
+      <div class="up clearfix">
+        <a class="logo" href="lego_main.html"><!--로고-->
+          <img src="img/legologo.png" alt="logo"  width="93" height="44">
+        </a>
+        <ul>
+          <li class="login"><a href="#">로그인</a>
+          </li>
+          <li>
+            <a href="#">장바구니</a>
+          </li>
+          <li>
+            <a><img src="img/icon_bag.png" alt="" width="26" height="26"></a>
+          </li>
+        </ul>
+      </div>
+      <!--하단-->
+      <div class="dw">
+        <ul class="menu">
+          <li><a href="lego_about.html">ABOUT</a></li>
+          <li><a href="lego_product.html">PRODUCT</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">SUPPORT</a></li>
+        </ul>
+        <ul class="search">
+          <li>
+            <input type="text" name="search" placeholder="검색어를 입력하세요.">
+          </li>
+          <li>
+            <button type="button"><i class="fas fa-search"></i>
+          </li>
+          </ul>
+        <ul class="icon">
+          <li><a href="#"><img src="img/icon_bookmark.png" alt=""></a></li>
+          <li><a href="#"><img src="img/icon_bell.png" alt=""></a></li>
+          <li><a href="#"><img src="img/icon_mega.png" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <!--분류-->
+
+  <section id="group">
+    <div class="wrap">
+      <h1>레고의 다양한 장난감들!</h1>
+      <div class="content">
+        <div class="box">
+          <a href="#">
+            <img src="img/group1.png" width:="330"; height="340" alt="시리즈">
+            <p>#시리즈</p>
+          </a>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="img/group2.png" width:="330"; height="340" alt="콜라보"> 
+            <p>#콜라보</p>
+          </a>
+        </div>
+        <div class="box">
+          <a href="#">
+            <img src="img/group3.png" width:="330"; height="340" alt="한정판">
+            <p>#한정판</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--신제품-->
+
+  <section id="new_p">
+    <div class="wrap">
+      <div class="title">
+        <span>NEW PRODUCT</span>
+        <h1>신제품</h1>
+        <p>레고의 다양한<br>신제품을 확인하세요!</p>
+        <div class="button">
+          <a href="#">전체보기</a>
+        </div>
+      </div>
+      <div class="contain">
+        <div class="arrow">
+          <button class="prev" type="button">
+            <img src="img/arrow_left.png" alt="왼쪽 방향 화살표">
+          </button>
+          <button class="next" type="button">
+            <img src="img/arrow_right.png" alt="왼쪽 방향 화살표">
+          </button>
+       </div>
+        <div class="contents">
+          <div class="roud">
+            <img src="img/roud1.png" alt="" width="220" height="220">
+            <div class="txt">
+              <p><b>무비 미니 레고</b></p>
+              <p>17,900원</p>
+              <span>2022.10.03</span>
+            </div>
+          </div>
+          <div class="roud">
+            <img src="img/roud2.png" alt="" width="220" height="220">
+            <div class="txt">
+              <p><b>레고 아바타</b></p>
+              <p>37,900원</p>
+              <span>2022.10.04</span>
+            </div>
+          </div>
+          <div class="roud">
+            <img src="img/roud3.png" alt="" width="220" height="220">
+            <div class="txt">
+              <p><b>레고 쿠파</b></p>
+              <p>59,900원</p>
+              <span>2022.10.05</span>
+            </div>
+          </div>
+          <div class="roud">
+            <img src="img/roud4.png" alt="" width="220" height="220">
+            <div class="txt">
+              <p><b>스타워즈 비행선</b></p>
+              <p>86,500원</p>
+              <span>2022.11.05</span>
+            </div>
+          </div>
+          <div class="roud">
+            <img src="img/roud5.png" alt="" width="220" height="220">
+            <div class="txt">
+              <p><b>명화 레고</b></p>
+              <p>92,900원</p>
+              <span>2022.11.07</span>
+            </div>
+          </div>
+          <div class="roud">
+            <img src="img/roud6.png" alt="" width="220" height="220">
+            <div class="txt">
+              <p><b>숲속 오두막</b></p>
+              <p>92,900원</p>
+              <span>2022.11.09</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--레고제품-->
+
+  <section id="product">
+    <div class="wrap">
+      <div class="title">
+        <P>PRODUCT</P>
+        <img src="img/lego_block.png" alt="레고블록" width="130" height="80">
+        <h1>레고 제품</h1>
+        <div class="button">
+          <a href="#">전체보기</a>
+        </div>
+      </div>
+      <div class="content">
+        <ul>
+          <li>
+            <div class="img">
+              <img src="img/product1.jpg" alt="">
+              <div class="tag1">
+                <div class="hit">HIT</div>
+              </div>
+              <div class="tag2">
+                <div class="new">NEW</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>레고 호텔</p>
+              <div class="dw">
+                <p><b>125,500원</b></p>
+                <p class="color">10%</p>
+                <p class="through">100,500원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product2.jpg" alt="">
+              <div class="tag1">
+                <div class="new">NEW</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>리무진 레드카펫</p>
+              <div class="dw">
+                <p><b>75,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product3.jpg" alt="">
+              <div class="tag1">
+                <div class="hit">HIT</div>
+              </div>
+              <div class="tag2">
+                <div class="new">NEW</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>스타워즈 비행선</p>
+              <div class="dw">
+                <p><b>55,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product4.jpg" alt="">
+            </div>
+            <div class="txt">
+              <p>크리스마스 세트</p>
+              <div class="dw">
+                <p><b>75,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product5.jpg" alt="">
+              <div class="tag1">
+                <div class="hit">HIT</div>
+              </div>
+              <div class="tag2">
+                <div class="new">NEW</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>숲속 오두막</p>
+              <div class="dw">
+                <p><b>75,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product6.jpg" alt="">
+            </div>
+            <div class="txt">
+              <p>레고 타자기</p>
+              <div class="dw">
+                <p><b>85,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product7.jpg" alt="">
+              <div class="tag1">
+                <div class="new">NEW</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>물과 피라미드</p>
+              <div class="dw">
+                <p><b>115,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product8.jpg" alt="">
+              <div class="tag1">
+                <div class="hit">HIT</div>
+              </div>
+              <div class="tag2">
+                <div class="new">NEW</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>일레트릭 등대</p>
+              <div class="dw">
+                <p><b>125,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product9.jpg" alt="">
+            </div>
+            <div class="txt">
+              <p>지구본 피규어</p>
+              <div class="dw">
+                <p><b>93,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product10.jpg" alt="">
+              <div class="tag1">
+                <div class="hit">HIT</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>라이언 기사의 성</p>
+              <div class="dw">
+                <p><b>105,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product11.jpg" alt="">
+              <div class="tag1">
+                <div class="new">NEW</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>명화 피규어</p>
+              <div class="dw">
+                <p><b>125,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img">
+              <img src="img/product12.jpg" alt="">
+              <div class="tag1">
+                <div class="new">NEW</div>
+              </div>
+            </div>
+            <div class="txt">
+              <p>레고 마을</p>
+              <div class="dw">
+                <p><b>45,500원</b></p>
+                <p class="color">11%</p>
+                <p class="through">92,200원</p>
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!--review-->
+
+  <section id="review">
+    <div class="wrap">
+      <div class="title">
+        <P>REVIEW</P>
+        <img src="img/lego_block.png" alt="레고블록" width="134" height="80">
+        <h1>최신 리뷰를 둘러보세요!</h1>
+        <div class="button">
+          <a href="#">더보기</a>
+        </div>
+      </div>
+    </div>
+    <div class="bg">
+      <div class="wrap">
+        <div class="content">
+          <div class="box">
+            <img src="img/review1.png" alt="" width="270">
+            <div class="txt">
+              <span>중세시대 성 후기</span>
+              <p>멋져요! 다른 시리즈들도 기대 되네요. 추천합니다</p>
+            </div>
+            <div class="inform">
+              <img src="img/review1-2.png" alt="">
+              <p>중세 시대의 성<br>
+              <span class="color">149,400원</span></p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="img/review2.png" alt="" width="270">
+            <div class="txt">
+              <span>레고 테크닉 후기</span>
+              <p>파츠가 많아서 고생했네요.
+                생긴게 진짜같고 멋져서 맘에
+                듭니다</p>
+            </div>
+            <div class="inform">
+              <img src="img/review2-2.png" alt="">
+              <p>레고 테크닉 후기<br>
+              <span class="color">149,400원</span></p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="img/review3.png" alt="" width="270">
+            <div class="txt">
+              <span>장난감 가게 후기</span>
+              <p>완전 귀여워요 다른 가게들도 사서 세워두면 더 좋을거 같아요</p>
+            </div>
+            <div class="inform">
+              <img src="img/review3-3.png" alt="">
+              <p>장난감 가게 후기<br>
+              <span class="color">149,400원</span></p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="img/review4.png" alt="" width="270">
+            <div class="txt">
+              <span>샌드위치 가게 리뷰 </span>
+              <p>샌드위치까지 작게 잘 표현돼서
+                너무 귀여워요!</p>
+            </div>
+            <div class="inform">
+              <img src="img/review4-4.png" alt="">
+              <p>샌드위치 가게 리뷰 <br>
+              <span class="color">149,400원</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+              
+  <footer>
+    <div class="wrap">
+      <div class="inform">
+        <P>KOREA</P>
+        <img src="img/legologo.png" alt=""
+        width="186" height="83">
+        <ul>
+          <li>상호명: 레고</li>
+          <li>대표:</li>
+          <li>주소:</li>
+          <li>사업자 등록 번호:</li>
+          <li>문의처:</li>
+          <li>이메일:</li>
+        </ul>
+        <ul class="sns">
+          <li><a href="#">
+            <i class="fab fa-twitter"></i></a></li>
+          <li><a href="#">
+            <i class="fab fa-youtube"></i>
+          </a></li>
+          <li><a href="#">
+            <i class="fab fa-instagram"></i>
+          </a></li>
+          <li><a href="#">
+            <i class="fab fa-facebook"></i>
+          </a></li>
+        </ul>
+      </div>
+      <div class="txt">
+        <ul>
+          <li class="title"><a href="#">회사소개</a></li>
+          <li><a href="#">레고 그룹 소개</a></li>
+          <li><a href="#">레고 뉴스</a></li>
+          <li><a href="#">지속 가능한 사업</a></li>
+          <li><a href="#">공급망 투명섬 선언</a></li>
+          <li><a href="#">레고 제품 인증</a></li>
+          <li><a href="#">레고 채용 정보</a></li>
+          <li><a href="#">레고 규정 준수 핫라인</a></li>
+        </ul>
+        <ul>
+          <li class="title"><a href="#">지원</a></li>
+          <li><a href="#">연락처</a></li>
+          <li><a href="#">조립 설명서 찾기</a></li>
+          <li><a href="#">부품 누락</a></li>
+          <li><a href="#">배송 및 반품</a></li>
+          <li><a href="#">경제 방식</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">제품 리콜</a></li>
+        </ul>
+        <ul>
+          <li class="title"><a href="#">명소</a></li>
+          <li><a href="#">레고 하우스</a></li>
+          <li><a href="#">레고랜드 파크</a></li>
+          <li><a href="#">레고랜드 디스커버리 센터</a></li>
+        </ul>
+        <ul>
+          <li class="title"><a href="#">기타정보</a></li>
+          <li><a href="#">에고 라이프</a></li>
+          <li><a href="#">레고 에듀케이션</a></li>
+          <li><a href="#">레고 아이디어</a></li>
+          <li><a href="#">공급망 투명섬 선언</a></li>
+        </ul>
+        <ul>
+          <li class="title"><a href="#">회사소개</a></li>
+          <li><a href="#">레고 그룹 소개</a></li>
+          <li><a href="#">레고 뉴스</a></li>
+          <li><a href="#">지속 가능한 사업</a></li>
+          <li><a href="#">공급망 투명섬 선언</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

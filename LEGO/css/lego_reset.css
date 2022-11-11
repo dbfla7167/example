@@ -1,0 +1,13 @@
+*{padding: 0; margin: 0; user-select: none;}
+  body{color: inherit; text-decoration: none;
+  color: #111;
+  font-size: 12px;
+  font-family: "맑은 고딕", Georgia;}
+ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;}
+

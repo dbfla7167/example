@@ -1,0 +1,164 @@
+
+
+@font-face{
+  font-family: "Pretendard";
+  src: url(../font/Pretendard.ttf)format('truetype');}
+@font-face{
+  font-family: "Cafe24Ohsquare";
+  src: url(../font/Cafe24Ohsquare.ttf)format('truetype');}
+  
+  
+
+
+
+/*메인배너*/
+
+#banner{
+  width: 100%;
+  min-width: 1300px;
+  height: 610px;
+  background: url(../img/about_banner.png)center;
+}
+#banner > .wrap{
+  width: 1180px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+#banner > .wrap >h1{
+  width: 184px;
+  height: 34px;
+  background-color: #ffd33c;
+  border-radius: 20px;
+  color: #fe0000;
+  font-family: "Pretendard";
+  font-size: 24px;
+  line-height: 34px;
+  margin: 124px auto 42px; 
+}
+
+/*스토리*/
+
+#story{
+  min-width: 1300px;
+  position: relative;
+  font-family: "Pretendard";
+}
+#story > .wrap{
+  width: 1180px;
+  height: 958px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+#story h1{
+  width: 200px;
+  height: 55px;
+  background-color: #fe0000;
+  box-shadow: 3px 3px 6px rgba(68, 61, 32, 0.2);
+  border-radius: 40px;
+  font-size: 34px;
+  line-height: 55px;
+  margin: 140px auto 50px;
+  color: #fff;
+}
+#story h2{
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: "Cafe24Ohsquare";
+}
+#story p{
+  line-height: 40px;
+  font-size: 20px;
+  margin-bottom: 46px;
+}
+
+#story .bg{
+  background-color: #ffd33c;
+  width: 1180px;
+  height: 890px;
+  position: absolute;
+  top: -29px;
+  z-index: -10;
+}
+
+/*레고의 가치*/
+
+#value{
+  margin-top: 125px;
+  min-width: 1300px;
+}
+
+#value > .wrap{
+  width: 1180px;
+  height: 1050px;
+  margin: auto;
+  text-align: center;
+}
+#value > .wrap > h1{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Cafe24Ohsquare";
+}
+#value > .wrap > p{
+  font-size: 18px;
+  line-height: 55px;
+}
+
+
+#value ul{
+  display: flex;
+  width: 860px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+#value ul > li{
+  width: 220px;
+  height: 372px;
+  margin:30px;
+  border: 1px solid #eee;
+  border-radius: 22px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 26px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#value ul > li img{
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+#value ul > li:hover{
+  transform: scale(1.1);
+}
+#value ul > li:hover img{
+  opacity: 1;
+}
+  
+#value ul > li > .txt{
+  width: 150px;
+  margin: 10px auto 0;
+}
+#value .txt > h2{
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#value .txt > p{
+  text-align: left;
+}
+#value .txt .color{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#value .c1{color: #5ab3ff;}
+#value .c2{color: #f36d6d;}
+#value .c3{color: #ffce5a;}
+#value .c4{color: #a074f0;}
+#value .c5{color: #6eeac8;}
+#value .c6{color: #f37bdb;}

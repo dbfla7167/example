@@ -1,0 +1,453 @@
+
+@font-face{
+  font-family: "Cafe24Ssurround";
+  src: url(../font/Cafe24Ssurround.ttf)format('truetype');}
+@font-face{
+  font-family: "Cafe24Ohsquare";
+  src: url(../font/Cafe24Ohsquare.ttf)format('truetype');}
+    
+
+
+body{color: #424242;}
+
+/*분류*/
+
+
+#group > .wrap{
+  height: 620px;
+  width: 1180px;
+  min-width: 1300px;
+  margin: auto;
+  font-family: "Cafe24Ssurround";
+}
+
+
+#group > .wrap > h1{
+  font-size: 30px;
+  text-align: center;
+  margin: 135px 0 70px;
+}
+
+#group .content{
+  display: flex;
+  width: 1090px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#group .content > .box{
+  width: 330px;
+  height: 340px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+#group .content > .box img{
+  border-radius: 25px;
+  transition: all 0.6s;
+}
+#group .content > .box:hover img{
+  transform: scale(1.1);
+}
+
+#group .content > .box p{
+  text-align: center;
+  font-size: 36px;
+  color: #fff;;
+  position: absolute;
+  bottom: 11px; right: 96px;
+  font-weight: 0;
+}
+
+
+/*신제품*/
+
+#new_p{
+  width: 100%;
+  height: 650px;
+  background-color: #ffd863;
+  text-align: center;
+  min-width: 1300px;
+}
+#new_p > .wrap{
+  width: 1300px;
+  height: 650px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+}
+#new_p .title{
+  padding-top: 200px;
+}
+#new_p .title > span{
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+#new_p .title > h1{
+  font-size: 58px;
+  color: #fff;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#new_p .title > p{
+  font-size: 18px;
+  color: #775738;
+  line-height: 30px;
+  margin: 12px 0 16px;
+}
+#new_p .title > .button{
+  font-size: 16px;
+  color: #ea7900;
+  display: inline-block;
+  width: 82px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 20px;
+  line-height: 36px;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px rgba(88, 36, 27, 0.2);
+}
+
+/*신제품 콘텐츠*/
+
+#new_p .contain{
+  width: 820px;
+  display: flex;
+  margin-left: 200px;
+  position: relative;
+}
+#new_p .contain > .contents{
+  width: 810px;
+  overflow: hidden;
+  display: flex;
+}
+#new_p .contain > .contents > .roud{
+  height: 440px;
+  background-color: #fff;
+  border-radius: 160px;
+  padding: 17px 12px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin: 100px 16px 0;
+}
+#new_p .contain .roud:hover{
+  transform: translateY(-35px);
+}
+#new_p .contain .roud img{
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+#new_p .contain .txt{margin-top: 20px;}
+
+#new_p .contain .txt b{
+  font-size: 20px;
+  border-bottom: 2px solid #ffe8a4;
+  padding-bottom: 1px;
+}
+#new_p .contain .txt p{
+  font-size: 18px;
+  line-height: 45px;
+}
+
+
+#new_p .contain .txt span{
+  font-size: 14px;
+  color: #939393;
+  line-height: 35px;
+}
+
+/*신제품 좌우 버튼*/
+
+#new_p .contain > .arrow > button{
+  border: 2px solid #fff;
+  cursor: pointer;
+  background-color: transparent;
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  padding-top: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.4s;
+}
+#new_p .contain .prev{
+  padding-right: 2px;
+  left: -90px;
+}
+#new_p .contain > .arrow .prev:hover{
+  transform: translateY(-50%) scale(1.2);
+  position: absolute;
+  top: 50%;
+}
+#new_p .contain .next{
+  padding-left: 2px;
+  right: -90px;
+}
+#new_p .contain > .arrow .next:hover{
+  transform: translateY(-50%) scale(1.2);
+  position: absolute;
+  top: 50%;
+}
+
+
+/*제품*/
+
+/*제품 제목*/
+
+#product > .wrap{
+  width: 1240px;
+  margin: auto;
+  position: relative;
+}
+#product > .wrap > .title{
+  text-align: center;
+}
+#product > .wrap > .title > p{
+  font-size: 22px;
+  font-style: "Cafe24Ssurround";
+  font-weight: bold;
+  color: #ff6407;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 157px;
+  left: 566px;
+}
+#product > .wrap > .title > img{
+  margin-top: 120px;
+}
+#product > .wrap > .title > h1{
+  font-size: 50px;
+  line-height: 100px;
+  font-family: "Cafe24Ohsquare";
+}
+#product > .wrap > .title > .button{
+  font-size: 16px;
+  color: #ea7900;
+  display: inline-block;
+  width: 82px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  line-height: 36px;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px rgba(88, 36, 27, 0.2)
+}
+
+/*제품 컨텐츠*/
+
+#product .content > ul{
+  margin-top: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#product .content li{
+  width: 282px;
+  height: 400px;
+  position: relative;
+}
+
+/*제품이미지*/
+
+#product .content li > .img{
+  width: 282px;
+  height: 282px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#product .content li > .img > img{
+  width: 282px;
+  height: 282px;
+  border-radius: 25px;
+  position: relative;
+}
+
+/*제품 태그*/
+
+#product .content li > .img > .tag1{
+  position: absolute;
+  top: 12px; left: 15px;
+}
+#product .content li > .img > .tag2{
+  position: absolute;
+  top: 42px; left: 15px;
+}
+#product .content li > .img .hit{
+  display: block;
+  width: 51px;
+  height: 24px;
+  background-color: #ff2828;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#product .content li > .img .new{
+  display: block;
+  width: 51px;
+  height: 24px;
+  background-color: #ffad2d;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+/*********/
+
+
+#product .content li > .txt{
+  width: 282px;
+  height: 116px;
+  padding-top: 13px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-size: 18px;
+  position: relative;
+}
+#product .content li > .txt > p{
+  font-size: 22px;
+  line-height: 35px;
+}
+#product .content li > .txt > .dw{
+  display: flex;
+}
+#product .content li > .txt > .dw > p{
+  margin-right: 6px;
+}
+#product .color{
+  color: #ea7900;
+  font-weight: bold;
+}
+#product .through{
+  color: #b3b3b3;
+  text-decoration: line-through;
+}
+#product i{
+  cursor: pointer;
+  font-size: 25px;
+  color: #b3b3b3;
+  position: absolute;
+  top: 24px;
+  right: 15px;
+}
+
+#product i.on{
+  color: #ffd863;
+}
+
+/*최신리뷰*/
+#review{
+  min-width: 1300px;
+}
+
+#review .wrap{
+  width: 1240px;
+  margin: auto;
+}
+
+#review > .wrap > .title{
+  margin-top: 130px;
+}
+
+#review > .wrap > .title > p{
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff6407;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  margin: 32px 0 0 16px;
+}
+
+#review > .wrap > .title > h1{
+  font-size: 36px;
+  margin: 30px 0 24px;
+  font-family: "Cafe24Ssurround";
+}
+#review > .wrap > .title > .button{
+  font-size: 16px;
+  color: #ea7900;
+  width: 82px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px rgba(88, 36, 27, 0.2)
+}
+
+
+/*리뷰 콘텐츠*/
+
+
+
+#review .content{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#review .content > .box{
+  width: 270px;
+  height: 430px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+#review .content > .box > img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+#review .content > .box > .txt{
+  width: 210px;
+  height: 110px;
+  margin: auto;
+  font-size: 14px;
+}
+
+#review .content > .box > .txt > span{
+  font-size: 19px;
+  line-height: 60px;
+  font-weight: bold;
+}
+#review .content > .box > .txt > p{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#review .content .inform{
+  display: flex;
+  width: 260px;
+  margin-top: 5px;
+}
+#review .content .inform > p{
+  font-size: 14px;
+  margin: 8px 40px 0 12px;
+}
+#review .content .inform .color{
+  color: #eb4e24;
+}
+#review .content .inform > img{
+  border-radius: 10px;
+  width: 52px;
+  height: 52px;
+  margin-left: 26px;
+}
+#review .bg{
+  width: 100%;
+  height: 570px;
+  background-color: #f4f4f4;
+}
+

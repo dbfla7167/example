@@ -1,0 +1,68 @@
+ /*푸터*/
+
+  /*푸터 왼쪽 회사정보*/
+
+  footer{
+    height: 480px;
+    min-width: 1300px;
+    background-color: #fd2b2b;
+    margin-top: 106px;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 58px;
+    box-sizing: border-box;}
+
+  footer>.wrap{
+    display: flex;
+    width: 1022px;
+    margin: auto;}
+
+  footer .inform{
+    width: 200px;}
+
+  footer .inform>ul:nth-child(3){line-height: 22px;
+  }
+
+  footer .inform>p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+  }
+  footer .inform>img{
+    margin: 8px 0 25px;
+  }
+
+  footer .inform .sns{
+    display: flex;
+    font-size: 26px;
+    line-height: 40px;
+    color: #fd2b2b;
+    margin-top: 22px;
+    }
+
+  footer .inform .sns>li{
+    width: 40px; height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    /*******/
+
+    /*푸터 오른쪽*/
+
+    footer .txt{
+      width: 600px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 210px;}
+
+    footer .txt>ul{width: 200px;}
+
+    footer .txt .title{
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 50px;
+    }

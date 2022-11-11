@@ -1,0 +1,452 @@
+<!DocType html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lego_main</title>
+
+<script src="https://kit.fontawesome.com/632d3e2496.js" crossorigin="anonymous"></script>
+
+<!--제이쿼리 라이브러리-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!--jquery UI-->
+<script src="js/lego_main.js"></script>
+
+
+<!--외부정의 css-->
+<link href="css/lego_main.css" rel="stylesheet">
+<link href="css/lego_header.css" rel="stylesheet">
+<link href="css/lego_footer.css" rel="stylesheet">
+<link href="css/lego_reset.css" rel="stylesheet">
+<!--외부정의 js-->
+
+
+
+
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <!--상단-->
+      <div class="up clearfix">
+        <a class="logo" href="#"><!--로고-->
+          <img src="img/legologo.png" alt="logo"  width="93" height="44">
+        </a>
+        <ul>
+          <li class="login"><a href="#">로그인</a>
+          </li>
+          <li>
+            <a href="#">장바구니</a>
+          </li>
+          <li>
+            <a><img src="img/icon_bag.png" alt="" width="26" height="26"></a>
+          </li>
+        </ul>
+      </div>
+      <!--하단-->
+      <div class="dw">
+        <ul class="menu">
+          <li><a href="lego_about.html">ABOUT</a></li>
+          <li><a href="lego_product.html">PRODUCT</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">SUPPORT</a></li>
+        </ul>
+        <ul class="search">
+          <li>
+            <input type="text" name="search" placeholder="검색어를 입력하세요.">
+          </li>
+          <li>
+            <button type="button"><i class="fas fa-search"></i>
+          </li>
+          </ul>
+        <ul class="icon">
+          <li><a href="#"><img src="img/icon_bookmark.png" alt=""></a></li>
+          <li><a href="#"><img src="img/icon_bell.png" alt=""></a></li>
+          <li><a href="#"><img src="img/icon_mega.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!--main banner-->
+  <section id="banner">
+    <div class="wrap">
+      <h1>LEGO KOREA</h1>
+      <p>모두가 즐기는 레고!</p>
+    </div>
+  </section>
+
+
+  <!--button-->
+
+  <section id="button">
+      <ul class="button">
+        <li>
+          <div class="circle">
+            <a href="#"><img src="img/buttonnav1-2.png" alt=""></a>
+          </div>
+          <p>신제품</p>
+        </li>
+        <li>
+          <div class="circle">
+            <a href="#"><img src="img/buttonnav2-2.png" alt=""></a>
+          </div>
+          <p>이벤트</p>
+        </li>
+        <li>
+          <div class="circle">
+            <a href="#"><img src="img/buttonnav3-2.png" alt=""></a>
+          </div>
+          <p>최신소식</p>
+        </li>
+        <li>
+          <div class="circle">
+            <a href="#"><img src="img/buttonnav4-2.png" alt=""></a>
+          </div>
+          <p>고객혜택</p>
+        </li>
+      </ul>
+      <div class="bg"></div>
+  </section>
+
+  <!--추천제품-->
+
+  <section id="best">
+    <div class="bg">
+      <div class="wrap">
+        <div class="txt">
+          <p>BEST</p>
+          <h1>추천제품</h1>
+          <span><a href="#">더보기</a></span>
+        </div>
+        <div class="product">
+          <div class="box">
+            <div class="scale">
+              <a href="#"><img src="img/best1.png" alt=""></a>
+            </div>
+            <ul>
+              <li>
+                <p class="hit">HIT</p>
+                <p class="new">NEW</p>
+              </li>
+              <li class="name">니모와 해삼</li>
+              <li class="price">75,500원</li>
+            </ul>
+          </div>
+          <div class="box">
+            <div class="scale">
+              <a href="#"><img src="img/best2.png" alt=""></a>
+            </div>
+            <ul>
+              <li>
+                <p class="hit">HIT</p>
+                <p class="new">NEW</p>
+              </li>
+              <li class="name">플라워 부케</li>
+              <li class="price">62,500원</li>
+            </ul>
+          </div>
+          <div class="box">
+            <div class="scale">
+              <a href="#"><img src="img/best3.png" alt=""></a>
+            </div>
+            <ul>
+              <li>
+                <p class="hit">HIT</p>
+                <p class="new">NEW</p>
+              </li>
+              <li class="name">지구 함선</li>
+              <li class="price">48,800원</li>
+            </ul>
+          </div>
+          <div class="box">
+            <div class="scale">
+              <a href="#"><img src="img/best4.png" alt=""></a>
+            </div>
+            <ul>
+              <li>
+                <p class="hit">HIT</p>
+                <p class="new">NEW</p>
+              </li>
+              <li class="name">라이언 기사의 성</li>
+              <li class="price">155,000원</li>
+            </ul>
+          </div>
+          <div class="box">
+            <div class="scale">
+              <a href="#"><img src="img/best5.png" alt=""></a>
+            </div>
+            <ul>
+              <li>
+                <p class="hit">HIT</p>
+                <p class="new">NEW</p>
+              </li>
+              <li class="name">일레트릭 등대</li>
+              <li class="price">399,900원</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--최신소식-->
+
+  <section id="news">
+    <div class="toy">
+      <img class="left" src="img/lego-left.png" alt="" width="130" height="177">
+      <img class="right" src="img/lego-right.png" alt=""
+      width="125" height="160">
+    </div>
+    <!--떠있는 레고사진들-->
+    <div class="bg">
+    <!--최신소식 뒷그림-->
+    <div class="wrap clearfix">
+      <div class="title">
+        <p>RECENT NEWS</p>
+        <h1>레고의<span> 최신소식</span></h1>
+      </div>
+        <div class="contents">
+          <div class="news clearfix">
+            <div class="main clearfix">
+              <img src="img/news1.jpg">
+              <div class="text">
+                <div class="logo">
+                  <img src="img/legologo.png" alt="" width="86" height="40">
+                  <p><b>LEGO STUDIO</b><br>10월 28일</p>
+                </div>
+                <h1>레고 CITY 시리즈를 만나보세요!</h1>
+                <p>여기가 왜 최고의 도시냐고요? 어떤 신나는 일이 또 벌어질지 모르거든요. 의사, 소방서장 또는 광대가 나타날 수도 있고, 갑자기 헬리콥터, 크레인 또는 리무진이 등장할 수도 있어요! 레고® 시티에는 그야말로 없는 게 없다니까요!</p>
+                <hr>
+              </div>
+            </div>
+            <div class="sub">
+              <ul>
+                <li>
+                  <img src="img/news2.jpg" alt="">
+                  <div class="txt">
+                    <h1>레고 아디다스 콜라보</h1>
+                    <p><b>LEGO STUDIO</b><br>
+                    10월 2일
+                    </p>
+                    <div class="icon">
+                      <p>관심 4,300개</p><i class="far fa-star star"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/news3.jpg" alt="">
+                  <div class="txt">
+                    <h1>컬러플 레고</h1>
+                    <p><b>LEGO STUDIO</b><br>
+                    10월 18일
+                    </p>
+                    <div class="icon">
+                      <p>관심 4,300개</p>
+                      <i class="far fa-star star"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/news4.jpg" alt="">
+                  <div class="txt">
+                    <h1>레고 놀이 체험</h1>
+                    <p><b>LEGO STUDIO</b><br>
+                    10월 30일
+                    </p>
+                    <div class="icon">
+                      <p>관심 4,300개</p>
+                      <i class="far fa-star star"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div><!--메인이랑 서브-->
+          <div class="ad">
+            <img src="img/news5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--store-->
+
+  <section id="store">
+    <div class="wrap">
+
+      <!--스토어 검색-->
+      <div class="txt">
+        <h2>OFFLINE STORE</h2>
+        <h1>오프라인 스토어</h1>
+        <div class="search">
+          <input type="text" name="search" placeholder="검색">
+          <button type="button"><i class="fas fa-search"></i>
+        </div>
+        <p>전국의 레고 오프라인 매점들을<br>
+        한눈에! 지금 바로 검색해 보세요!
+        </p>
+        </div>
+
+        <!--스토어 정보-->
+      <div class="inform">
+        <div class="arrow arrow_up">
+          <button type="button" class="up">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+        <div class="slider">
+          <ul>
+            <li class="li1 clearfix">
+              <h1>레고 스토어 타임스쿼어점</h1>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>서울 영등포구 영중로 15 지하1층</p>
+              <i class="fas fa-phone-alt"></i><p class="number">010-0000-0000</p>
+            </li>
+            <li class="li2 clearfix">
+              <h1>레고스토어 유플레스 중동점</h1>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>경기 부천시 길주로 172 현대</p>
+              <i class="fas fa-phone-alt"></i><p class="number">010-0000-0000</p>
+            </li>
+            <li class="li3 clearfix">
+              <h1>레고스토어 더현대서울</h1>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>서울 영등포구 여의대로 108</p>
+              <i class="fas fa-phone-alt"></i><p class="number">010-0000-0000</p>
+            </li>
+            <li class="li4 clearfix">
+              <h1>레고스토어 인천점</h1>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>인천광역시 미추홀구 연남로</p>
+              <i class="fas fa-phone-alt"></i><p class="number">010-0000-0000</p>
+            </li>
+            <li class="li5 clearfix">
+              <h1>레고스토어 갤러리아</h1>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>경기도 수원시 영통구 광교중앙로</p>
+              <i class="fas fa-phone-alt"></i><p class="number">010-0000-0000</p>
+            </li>
+            <li class="li6 clearfix">
+              <h1>레고 스토어 동탄점</h1>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>경기도 화성시 동탄역로</p>
+              <i class="fas fa-phone-alt"></i><p class="number">010-0000-0000</p>
+            </li>
+          </ul>
+        </div>
+        <div class="arrow arrow_dw">
+          <button type="button" class="dw">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+        </div>
+      </div>
+      <div class="img">
+        <ul>
+          <li class="banner b1"><a href="#"></a></li>
+          <li class="banner b2"><a href="#"></a></li>
+          <li class="banner b3"><a href="#"></a></li>
+          <li class="banner b4"><a href="#"></a></li>
+          <li class="banner b5"><a href="#"></a></li>
+          <li class="banner b6"><a href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--광고배너-->
+  <section id="ad">
+    <div id="slider">
+      <div id="viewer">
+        <img src="img/banner1.jpg" alt="">
+        <img src="img/banner2.jpg" alt="">
+        <img src="img/banner1.jpg" alt="">
+        <img src="img/banner2.jpg" alt="">
+      </div>
+      <ul id="dot">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="inform">
+        <P>KOREA</P>
+        <img src="img/legologo.png" alt=""
+        width="186" height="83">
+        <ul>
+          <li>상호명: 레고</li>
+          <li>대표:</li>
+          <li>주소:</li>
+          <li>사업자 등록 번호:</li>
+          <li>문의처:</li>
+          <li>이메일:</li>
+        </ul>
+        <ul class="sns">
+          <li><a href="#">
+            <i class="fab fa-twitter"></i></a></li>
+          <li><a href="#">
+            <i class="fab fa-youtube"></i>
+          </a></li>
+          <li><a href="#">
+            <i class="fab fa-instagram"></i>
+          </a></li>
+          <li><a href="#">
+            <i class="fab fa-facebook"></i>
+          </a></li>
+        </ul>
+      </div>
+      <div class="txt">
+        <ul>
+          <li class="title"><a href="#">회사소개</a></li>
+          <li><a href="#">레고 그룹 소개</a></li>
+          <li><a href="#">레고 뉴스</a></li>
+          <li><a href="#">지속 가능한 사업</a></li>
+          <li><a href="#">공급망 투명섬 선언</a></li>
+          <li><a href="#">레고 제품 인증</a></li>
+          <li><a href="#">레고 채용 정보</a></li>
+          <li><a href="#">레고 규정 준수 핫라인</a></li>
+        </ul>
+        <ul>
+          <li class="title"><a href="#">지원</a></li>
+          <li><a href="#">연락처</a></li>
+          <li><a href="#">조립 설명서 찾기</a></li>
+          <li><a href="#">부품 누락</a></li>
+          <li><a href="#">배송 및 반품</a></li>
+          <li><a href="#">경제 방식</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">제품 리콜</a></li>
+        </ul>
+        <ul>
+          <li class="title"><a href="#">명소</a></li>
+          <li><a href="#">레고 하우스</a></li>
+          <li><a href="#">레고랜드 파크</a></li>
+          <li><a href="#">레고랜드 디스커버리 센터</a></li>
+        </ul>
+        <ul>
+          <li class="title"><a href="#">기타정보</a></li>
+          <li><a href="#">에고 라이프</a></li>
+          <li><a href="#">레고 에듀케이션</a></li>
+          <li><a href="#">레고 아이디어</a></li>
+          <li><a href="#">공급망 투명섬 선언</a></li>
+        </ul>
+        <ul>
+          <li class="title"><a href="#">회사소개</a></li>
+          <li><a href="#">레고 그룹 소개</a></li>
+          <li><a href="#">레고 뉴스</a></li>
+          <li><a href="#">지속 가능한 사업</a></li>
+          <li><a href="#">공급망 투명섬 선언</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
