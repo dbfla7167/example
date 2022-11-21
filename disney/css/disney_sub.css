@@ -171,7 +171,7 @@ header .gnb > li:first-child{
   color: #555ce9;
   cursor: pointer;
   transition: all 0.3s;
-  margin: 25px 0 50px;
+  margin: 25px 4px 50px;
   background-color: #fff;
 }
 #year button:hover{
