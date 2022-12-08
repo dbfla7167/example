@@ -1,0 +1,64 @@
+%!Adobe-FontList 1.22
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Thin
+FamilyName:Pretendard
+StyleName:Thin
+FullName:Pretendard Thin
+MenuName:Pretendard Thin
+StyleBits:0
+FamilyNameNative:Pretendard
+StyleNameNative:Thin
+FullNameNative:Pretendard Thin
+WritingScript:Korean
+OutlineFileName:E:\KYR\자기소개 사이트 디자인4\Font\Pretendard-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2870652
+FileModTime:1653576830
+WeightClass:100
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Thin
+NameArray:0,Win,1,Pretendard Thin
+NameArray:0,Win,16,Pretendard
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PretendardVariable-Regular
+FamilyName:Pretendard Variable
+StyleName:Regular
+FullName:Pretendard Variable
+MenuName:Pretendard Variable
+StyleBits:0
+FamilyNameNative:Pretendard Variable
+StyleNameNative:Regular
+FullNameNative:Pretendard Variable Regular
+WritingScript:Korean
+OutlineFileName:E:\KYR\자기소개 사이트 디자인4\Font\Pretendard.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:6803260
+FileModTime:1653576830
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Pretendard Variable
+NameArray:0,Win,1,Pretendard Variable
+NameArray:0,Win,16,Pretendard Variable
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\KYR\자기소개 사이트 디자인4\Font\font.css
+FileModTime:1670288643
+%EndFont
+

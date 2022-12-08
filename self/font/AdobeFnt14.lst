@@ -1,0 +1,47 @@
+%!Adobe-FontList 1.14
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Pretendard-Thin
+FamilyName:Pretendard
+StyleName:Thin
+FullName:Pretendard Thin
+MenuName:Pretendard Thin
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Thin
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:C:\Users\pc\Desktop\코딩학원\자기소개 사이트 디자인(4)\Font\Pretendard-Thin.ttf
+DataFormat:sfntData
+FileLength:2870652
+FileModTime:1653576830
+WeightClass:100
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PretendardVariable-Regular
+FamilyName:Pretendard Variable
+StyleName:Regular
+FullName:Pretendard Variable
+MenuName:Pretendard Variable
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:C:\Users\pc\Desktop\코딩학원\자기소개 사이트 디자인(4)\Font\Pretendard.ttf
+DataFormat:sfntData
+FileLength:6803260
+FileModTime:1653576830
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

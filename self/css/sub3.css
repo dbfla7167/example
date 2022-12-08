@@ -1,0 +1,173 @@
+/*공통*/
+
+
+
+
+body{
+  color: #fff;
+  z-index: -3;
+  background: #ffd345 url(../img/line.png) center;
+}
+
+.txt{
+  width: 300px; height: 300px;
+  line-height: 24px;
+  padding: 8px 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.txt > h1{
+  font-size: 60px;
+  line-height: 60px;
+}
+
+/*제목*/
+
+#title{
+  height: 850px;
+  position: relative;
+  overflow: hidden;
+  min-width: 1300px;
+}
+#title nav > .wrap{
+  width: 1200px;
+  margin: auto;
+}
+#title nav i{
+  font-size: 30px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-top: 40px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+#title nav i:hover{
+  transform: scale(1.1);
+}
+#title > .wrap{
+  height: 720px;
+  width: 850px;
+  margin: 210px auto 0;
+  font-size: 40px;
+  text-align: center;
+}
+#title > .wrap > span{
+  border: 1px solid #ffF;
+  color: #ffF;
+  border-radius: 60px;
+  font-size: 24px;
+  font-family: "Pretendard-Thin";
+  padding: 0 10px 3px;
+  box-sizing: border-box;
+  background-color: #ffd345;
+}
+#title > .bg{
+  width: 200%;
+  display: flex;
+  transition: all 3s;
+}
+#title > .bg > img{
+  bottom: 0px;
+  left: 0;
+  width: 200%;
+}
+#title .bg > .wave1{
+  z-index: -1;
+  position: absolute;
+  animation: wave 25s linear infinite alternate-reverse;
+}
+#title .bg > .wave2{
+  z-index: -2;
+  position: absolute;
+  opacity: 0.45;
+  animation: wave 30s linear infinite alternate-reverse;
+}
+#title .bg > .wave3{
+  z-index: -3;
+  position: absolute;
+  opacity: 0.2;
+  animation: wave 20s linear infinite alternate-reverse;
+}
+@keyframes move{
+  0%{top: 50%;}
+  100%{top: 47%;}
+}
+@keyframes wave{
+  0%{left: 0%;}
+  25%{left: -25%;}
+  50%{left: -50%;}
+  75%{left: -75%;}
+  100%{left: -100%;}
+}
+
+/*캐릭터1*/
+
+#cow{
+  height: 750px;
+  overflow: hidden;
+  min-width: 1300px;
+}
+#cow > .wrap{
+  width: 100%;
+  background-color: #4874FF;
+  height: 750px;
+  position: relative;
+  overflow: hidden;
+}
+#cow .cow{
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: move 4s infinite linear alternate-reverse;
+}
+#cow .txt{
+  border-left: 1px solid #fff;
+  left: 22%;
+}
+
+/*캐릭터2*/
+
+#cat{
+  background-color: #ffe9a3;
+  height: 900px;
+  width: 100%;
+  color: #e1803c;
+  position: relative;
+  overflow: hidden;
+  min-width: 1300px;
+}
+#cat .txt{
+  border-left: 1px solid #e1803c;
+  left: 30%;
+}
+#cat > img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/*캐릭터3*/
+
+#sea{
+  width: 100%;
+  height: 1035px;
+  background: url(../img/sea_bg.jpg) center/cover;
+  position: relative;
+  min-width: 1300px;
+}
+#sea > img{
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: move 4s infinite linear alternate-reverse;
+}
+#sea .txt{
+  left: 55%;
+  border-left: 1px solid #fff;
+}

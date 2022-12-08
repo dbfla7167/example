@@ -1,0 +1,438 @@
+
+/*공통*/
+
+body{
+  color: #fff;
+  background: #242424;
+  background: url(../img/bg.jpg) center/contain;
+}
+
+/*제목*/
+.title > h1{
+  font-size: 35px;
+  line-height: 42px;
+}
+/*서브제목*/
+.sub_title{
+  color: #b5b5b5;
+  font-family: "Pretendard-Thin";
+  line-height: 26px;
+}
+
+/*고정 네비*/
+nav{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background-color: #242424;
+}
+nav ul{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  color: #555;
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/*뒷 배경*/
+#bg .arrow{
+  z-index: -1;
+  position: fixed;
+  opacity: 0.7;
+}
+#bg .aleft{
+  top: 600px; left: 25.3%;
+}
+#bg .aright{
+  top: 300px; right: 25.2%;
+}
+#bg .star{
+  z-index: -1;
+  position: fixed;
+  transform: scale(0.5);
+}
+#bg .sleft{
+  left: 16%;
+  top: 300px;
+}
+#bg .sright{
+  right: 12%;
+  top: 450px;
+}
+
+/*메인 타이틀*/
+
+#main{
+  margin: 150px 0;
+  text-align: center;
+  position: relative;
+}
+#main .wrap{
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+#main span{
+  border: 1px solid #ffe052;
+  color: #ffe052;
+  border-radius: 60px;
+  font-size: 30px;
+  font-family: "Pretendard-Thin";
+  padding: 3px 10px;
+  box-sizing: border-box;
+  background-color: #242424;
+}
+#main img{
+  width: 800px;
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation:  7s infinite;
+}
+@keyframes fly{
+  0%{transform: translateX(-50%) scale(1);}
+  50%{transform: translateX(-50%) scale(0.93);}
+  100%{transform: translateX(-50%) scale(1);}
+}
+#main p{
+  width: 350px;
+  margin: 300px auto 0;
+}
+
+/*자기소개*/
+
+#me{
+  width: 500px;
+  height: 450px;
+  margin: auto;
+  perspective: 1100px;
+  text-align: center;
+  padding-top: 80px;
+  
+}
+#me:hover .card{
+  transform: rotateY(180deg);
+}
+#me .card{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 0.8s;
+  transform-style: preserve-3d;
+}
+#me .item{
+  width: 450px; height: 260px;
+  background-color: #242424;
+  border: 1px dotted #ffe052;
+  border-radius: 40px;
+  margin: 100px auto 0;
+  position: relative;
+  padding: 60px 90px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.5s;
+  backface-visibility: hidden;
+}
+#me .item > .title{
+  position: absolute;
+  top: -60px; left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  line-height: 38px;
+  background-color: #242424;
+  width: 85px;
+}
+#me .front .content > p{
+  font-size: 35px;
+  color: #ffe052;
+  text-align: left;
+  margin-bottom: 50px;
+}
+#me .back{
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%) rotateY(180deg);
+}
+#me .back .content{
+  color: #ffe052;
+  font-size: 18px;
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  line-height: 40px;
+  font-family: "Pretendard-Thin";
+}
+
+/*자격증*/
+
+#license{
+  text-align: center;
+  padding-top: 100px;
+}
+#license .title{
+  margin-bottom: 50px;
+}
+#license .content .box{
+  width: 202px;
+  height: 74px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 0 auto 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #242424;
+  padding: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#license .content .box .txt > p{
+  font-family: "Pretendard-Thin";
+}
+#license .content .box > img,.car,.cad{
+  width: 28px; height: 28px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  box-sizing: border-box;
+}
+#license .content .box .check{
+  width: 28px; height: 28px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding-top: 7px;
+  box-sizing: border-box;
+}
+#license .content .box:hover{
+  transform: scale(1.1);
+}
+#license .content .box:hover .check{
+  animation: move 0.6s reverse;
+  transition: all 0.3s;
+  border: 1px solid greenyellow;
+  color: greenyellow;
+}
+
+@keyframes move{
+  20%{transform: translateY(3px);}
+  50%{transform: translateY(-2px);}
+  100%{transform: translateY(0px)}
+
+}
+
+/*자격증*/
+
+
+
+/*기술*/
+
+#skill{
+  padding-top: 90px;
+}
+#skill .wrap{
+  width: 300px;
+  margin: 80px auto 0;
+}
+#skill .wrap > .title{
+  text-align: center;
+  margin-bottom: 45px;
+  position: relative;
+}
+#skill .content .thum{
+  display: flex;
+  color: #dbdbdb;
+  font-size: 16px;
+  text-indent: 5px;
+  line-height: 26px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#skill .content .thum span{
+  display: block;
+  width: 208px; height: 34px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 2px 2px 1px;
+  box-sizing: border-box;
+  background-color: #242424;
+}
+#skill .gauge > p{
+  font-family: "Pretendard-Thin";
+  color: #fff;
+}
+#skill .content span > .inside{
+  width: 0%;
+  height: 96%;
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  opacity: 0;
+}
+#skill .content .thum > img{
+  border: 1px solid #fff;
+  margin-right: 15px;
+}
+#skill .content .info{
+  padding: 24px 22px;
+  margin-bottom: 24px;
+  display: none;
+  position: relative;
+  background-color: #242424;
+}
+.line{
+  display: inline-block;
+  position: absolute;
+}
+.up{
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  height: 1px;
+  background-color: #fff;
+}
+.right{
+  top: 0%;
+  right: 0%;
+  width: 1px;
+  height: 0;
+  background-color: #fff;
+}
+.dw{
+  bottom: 0%;
+  right: 0%;
+  width: 0%;
+  height: 1px;
+  background-color: #fff;
+}
+.left{
+  bottom: 0%;
+  left: 0%;
+  width: 1px;
+  height: 0;
+  background-color: #fff;
+}
+.cusor1{
+  position: absolute;
+  outline: none;
+  bottom: -95px; left: -90px;
+}
+
+/*포트폴리오*/
+
+#portfolio{
+  padding-top: 30px;
+}
+#portfolio .wrap{
+  width: 658px;
+  margin: 100px auto 0;
+  text-align: center;
+}
+#portfolio .title{
+  margin-bottom: 10px;
+}
+#portfolio .content{
+  margin-top: 20px; 
+}
+#portfolio .content > p{
+  width: 110px; height: 45px;
+  line-height: 45px;
+  font-family: "Pretendard-Thin";
+  border-radius: 10PX;
+  margin: auto;
+  font-size: 24px;
+  border: 1px solid #fff;
+  background-color: #242424;
+}
+#portfolio .web{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#portfolio .renew{
+  width: 280px;
+  font-family: "Pretendard-Thin"; 
+  position: relative;
+}
+.renew .cusor2{
+  position: absolute;
+  top: 60px; right: -30px;
+}
+#portfolio .renew .img{
+  position: relative;
+  width: 188px;
+  margin: auto;
+}
+#portfolio .renew .img .logo{
+  position: absolute;
+  top: 49%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+#portfolio .renew .sub_title{
+  text-align: center;
+  width: 188px; height: 52px;
+  font-size: 20px;
+  background: url(../img/subtitle.png) center no-repeat;
+  line-height: 52px;
+  margin: 30px auto;
+}
+#portfolio .renew .info{
+  width: 277px;
+  height: 299px;
+  background: url(../img/info.png);
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: left;
+  padding: 55px 30px 0 40px ;
+  box-sizing: border-box; 
+}
+#portfolio .content .web .img:hover .rotate{
+  animation: rotate 15s infinite;
+}
+#portfolio .rotate{
+  opacity: 0;
+}
+@keyframes rotate{
+  from{transform: rotate(0deg); opacity: 1;}
+  to{transform: rotate(360deg); opacity: 1;}
+}
+#portfolio .content .web > ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 420px;
+  margin-top: 80px; 
+}
+#portfolio .web .sub{
+  margin: auto; 
+}
+#portfolio .web .sub li{
+  height: 100px;
+  margin:  0 20px;
+  font-size: 18px;
+  font-family: "Pretendard-Thin";
+}
+#portfolio .web .sub li p{
+  border: 0.5px solid #fff;
+  border-radius: 10px;
+  height: 38px;
+  width: 105px;
+  line-height: 38px;
+  margin: 0 auto 30px;
+  background-color: #242424;
+}
+#portfolio .web .sub li img:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
