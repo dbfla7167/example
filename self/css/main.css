@@ -57,6 +57,7 @@ nav ul{
   position: fixed;
   transform: scale(0.5);
 }
+/*
 #bg .sleft{
   left: 16%;
   top: 300px;
@@ -65,11 +66,12 @@ nav ul{
   right: 12%;
   top: 450px;
 }
+*/
 
 /*메인 타이틀*/
 
 #main{
-  margin: 150px 0;
+  margin: 290px 0 150px;
   text-align: center;
   position: relative;
 }
@@ -91,7 +93,7 @@ nav ul{
 #main img{
   width: 800px;
   position: absolute;
-  top: 55px;
+  top: 75px;
   left: 50%;
   transform: translateX(-50%);
   animation:  7s infinite;
@@ -102,8 +104,9 @@ nav ul{
   100%{transform: translateX(-50%) scale(1);}
 }
 #main p{
-  width: 350px;
-  margin: 300px auto 0;
+  width: 340px;
+  margin: 320px auto 0;
+  line-height: 24px;
 }
 
 /*자기소개*/
@@ -114,7 +117,7 @@ nav ul{
   margin: auto;
   perspective: 1100px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 130px;
   
 }
 #me:hover .card{
@@ -175,7 +178,7 @@ nav ul{
 
 #license{
   text-align: center;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 #license .title{
   margin-bottom: 50px;
@@ -347,8 +350,8 @@ nav ul{
   line-height: 45px;
   font-family: "Pretendard-Thin";
   border-radius: 10PX;
-  margin: auto;
-  font-size: 24px;
+  margin: 0 auto 20px;
+  font-size: 22px;
   border: 1px solid #fff;
   background-color: #242424;
 }

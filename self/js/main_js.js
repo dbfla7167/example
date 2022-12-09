@@ -32,13 +32,13 @@ $(function(){
 
     //스크롤 내리면 게이지 채워지게
     $(window).scroll(function(){
-        if($(window).scrollTop() > 1240){
-            $("#skill .in1,.in2").stop().animate({"width":"76%","opacity":"1"},1000);
+        if($(window).scrollTop() > 1550){
+            $("#skill .in1,.in2").stop().animate({"width":"76%","opacity":"1"},1200);
         }else if($(window).scrollTop() < 1240){
             $("#skill .in1,.in2").stop().animate({"width":"0%","opacity":"0"},300);
         }
-        if($(window).scrollTop() > 1240){
-            $("#skill .in3").stop().animate({"width":"67%","opacity":"1"},1000);
+        if($(window).scrollTop() > 1550){
+            $("#skill .in3").stop().animate({"width":"67%","opacity":"1"},1200);
         }else if($(window).scrollTop() < 1240){
             $("#skill .in3").stop().animate({"width":"0%","opacity":"0"},300);
         }

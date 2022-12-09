@@ -1,3 +1,9 @@
 @font-face{
   font-family: "Pretendard-Thin";
   src: url(../font/Pretendard-Thin.ttf)format('truetype');}
+@font-face{
+  font-family: "Pretendard";
+  src: url(../font/Pretendard.ttf)format('truetype');}
+@font-face{
+  font-family: "Jalnan";
+  src: url(../font/Jalnan.ttf)format('truetype');}

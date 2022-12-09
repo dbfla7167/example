@@ -1,10 +1,13 @@
 /*공통*/
 
 .num{
-  font-size: 40px;
-  font-family: "Pretendard-Thin";
+  font-size: 50px;
+  font-family: "Pretendard";
+  font-weight: bold;
+  line-height: 70px;
+  font-family: "Jalnan";
+  color: #333;
 }
-
 /*네비*/
 
 nav > .wrap{
@@ -61,6 +64,8 @@ nav i:hover{
 
 /*베너*/
 
+
+
 #banner .wrap{
   width: 805px;
   height: 680px;
@@ -97,7 +102,6 @@ nav i:hover{
   margin: 150px 0 0 80px;
   padding-left: 12px;
   box-sizing: border-box;
-  border-left: 1px solid #ccc;
   line-height: 30px;
 }
 #banner .scroll{
@@ -126,15 +130,13 @@ nav i:hover{
 
 #page{
   width: 100%;
-  background-color: #78e7b5;
-  color: #fff;
-  padding: 100px 0 70px;
+  padding: 120px 0;
   box-sizing: border-box;
-  background: #78e7b5 url(../img/line.png) center/cover;
+  background: rgb(248, 248, 248) url(../img/line.png) center/cover;
   min-width: 1300px;
 }
 #page > .wrap{
-  width: 800px;
+  width: 1000px;
   margin: auto;
   text-align: center;
   position: relative;
@@ -150,13 +152,23 @@ nav i:hover{
   font-family: "Pretendard-Thin";
   background-color: #78e7b5;
 }
-#page .content > .scroll{
-  width: 520px; height: 550px;
+#page .content{
+  display: flex;
+  width: 950px;
   margin: auto;
-  border-radius: 20px;
+  align-items: center;
+}
+#page .content > .scroll{
+  width: 480px; height: 540px;
+  margin: auto;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   overflow-y: scroll;
   background-color: #fff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 #page .content > .scroll li{
   opacity: 0;
@@ -164,7 +176,7 @@ nav i:hover{
   transition: all 1s;
 }
 #page .content > .scroll img{
-  width: 490px;
+  width: 454px;
   display: block;
 }
 #page .content > .scroll::-webkit-scrollbar{
@@ -172,37 +184,31 @@ nav i:hover{
 }
 #page .content > .scroll::-webkit-scrollbar-thumb{
   height: 60px;
-  border-top-right-radius: 17px;
-  border-bottom-right-radius: 17px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   background: #ddd;
 
 }
-#page .content > .scroll::-webkit-scrollbar-track{
-  background: #fff;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+#page nav{
+  position: absolute;
+  bottom: -85px; left: 23%;
 }
 #page nav > button{
   width: 20px; height: 20px;
   border-radius: 50%;
-  margin: 20px 5px;
+  margin: 30px 5px;
   cursor: pointer;
   transition: all 0.5s;
   background-color: #fff;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 #page nav > button:hover{
   transform: scale(1.2);
 }
 #page .txt{
-  width: 280px; height: 140px;
-  position: absolute;
-  top: 50%; right: -206px;
-  transform: translateY(-50%);
+  width: 450px; height: 180px;
   text-align: left;
-  padding: 20px 0 0 20px ;
-  line-height: 30px;
-  color: #fff;
-  border-left: 1px solid #fff;
-  background-color: #78e7b5;
+  padding: 30px 26px;
+  box-sizing: border-box;
+  line-height: 35px;
 }

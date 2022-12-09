@@ -1,8 +1,4 @@
 /*공통*/
-
-
-
-
 body{
   color: #fff;
   z-index: -3;
@@ -10,16 +6,17 @@ body{
 }
 
 .txt{
-  width: 300px; height: 300px;
+  width: 300px; height: 245px;
   line-height: 24px;
-  padding: 8px 15px;
+  padding-left: 15px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 }
 .txt > h1{
   font-size: 60px;
-  line-height: 60px;
+  line-height: 66px;
 }
 
 /*제목*/
@@ -118,7 +115,7 @@ body{
   overflow: hidden;
 }
 #cow .cow{
-  width: 25%;
+  width: 350px;
   position: absolute;
   top: 50%;
   left: 50%;
