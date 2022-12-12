@@ -28,6 +28,7 @@ header .gnb > li:first-child{
   height: 746px;
   background: url(../img/main2.jpg) center/cover;
   color: #fff;
+  min-width: 1300px;
 }
 #main > .wrap{
   width: 656px;

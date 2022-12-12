@@ -1,12 +1,12 @@
 body{
-  background: url(../img/line2.png) center;
+  background: #3c4de2 url(../img/line3.png) center/cover;
 }
 
 /*뒤로가기*/
 
 nav > .wrap{
   width: 1200px;
-  margin: auto;
+  margin: 0 auto 50px;
 }
 nav i{
   font-size: 30px;
@@ -16,7 +16,7 @@ nav i{
   padding: 10px;
   transition: all 0.5s;
   margin-top: 40px;
-  background-color: #fff;
+  background-color: #3c4de2;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
 }
 nav i:hover{
@@ -33,51 +33,46 @@ nav i:hover{
 #title > .wrap > span{
   border: 1px solid #ffcd46;
   color: #ffcd46;
-  border-radius: 60px;
+  border-radius: 50%;
   font-size: 24px;
   font-family: "Pretendard-Thin";
-  padding: 0 10px;
+  padding: 5px 20px;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: #3c4de2;
 }
 #title > .wrap > h1{
-  font-size: 70px;
-  color: #444;
-  margin-top: 20px;
+  font-size: 75px;
+  color: #ffcd46;
+  margin-top: 38px;
+  font-family: "Tenada";
 }
 #title > .wrap > .nav{
   width: 250px;
-  margin: 20px auto 0;
+  margin: 10px auto 0;
   display: flex;
   justify-content: space-around;
 }
 #title > .wrap > .nav > li{
-  width: 60px; height: 60px;
+  width: 50px; height: 50px;
   border-radius: 50%;
-  background-color: #ffcd46;
-  padding: 10px 0;
+  background-color: #fff;
+  padding: 8px 0;
   box-sizing: border-box;
-}
-#title > .wrap > .nav > .logo2{
-  background-color: #ef8362;
-}
-#title > .wrap > .nav > .logo3{
-  background-color: #009eed;
 }
 
 /*메인*/
 
 #main > .wrap{
   width: 1280px; height: 720px;
-  margin: 50px auto 0;
+  margin: 40px auto 0;
   position: relative;
   padding-bottom: 100px;
   min-width: 1100px;
 }
 #main > .wrap > span{
   display: block;
-  width: 980px; height: 40px;
-  background-color: #eee;
+  width: 980px; height: 30px;
+  background-color: #fff;
   position: absolute;
   left: 50%;
   z-index: 100;
@@ -95,7 +90,7 @@ nav i:hover{
   height: 20px;
 }
 .content::-webkit-scrollbar-thumb{
-  background: rgb(231, 231, 231);
+  background: #ffcd46;
   border-radius: 8px;
 }
 #main .content > .slide{

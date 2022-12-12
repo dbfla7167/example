@@ -189,6 +189,7 @@
 /*순위*/
 #rank{
   position: relative;
+  min-width: 1300px;
 }
 
 #rank > .wrap{
@@ -407,6 +408,7 @@
   background-color: #f3f4f7;
   overflow: hidden;
   margin-top: 120px;
+  min-width: 1300px;
 }
 #recommend > .wrap{
   width: 1180px;

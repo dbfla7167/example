@@ -7,3 +7,6 @@
 @font-face{
   font-family: "Jalnan";
   src: url(../font/Jalnan.ttf)format('truetype');}
+  @font-face{
+    font-family: "Tenada";
+    src: url(../font/Tenada.ttf)format('truetype');}

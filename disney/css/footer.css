@@ -6,6 +6,7 @@ footer{
   margin-top: 110px;
   padding-top: 75px;
   box-sizing: border-box;
+  min-width: 1300px;
 }
 footer > .wrap{
   width: 1020px;
