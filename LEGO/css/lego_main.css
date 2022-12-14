@@ -497,11 +497,13 @@
   #ad{
     width: 1200px; height: 520px;
     margin: 130px auto 0;
+    min-width: 1300px;
   }
   #ad > #slider{
     width: 1200px; height: 520px;
     overflow: hidden;
     position: relative;
+    margin: auto;
   }
   #ad #viewer{
     height: 2080px;
