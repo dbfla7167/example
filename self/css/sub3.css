@@ -46,19 +46,20 @@ body{
 }
 #title > .wrap{
   height: 720px;
-  width: 850px;
-  margin: 210px auto 0;
-  font-size: 40px;
+  width: 1000px;
+  margin: 160px auto 0;
+  font-size: 60px;
   text-align: center;
   font-family: "Tenada";
+  line-height: 120px;
 }
 #title > .wrap > span{
-  border: 1px solid #ffF;
-  color: #ffF;
-  border-radius: 60px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50%;
   font-size: 24px;
   font-family: "Pretendard-Thin";
-  padding: 0 10px 3px;
+  padding: 8px 20px;
   box-sizing: border-box;
   background-color: #ffd345;
 }
@@ -116,7 +117,7 @@ body{
   overflow: hidden;
 }
 #cow .cow{
-  width: 350px;
+  width: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -141,6 +142,7 @@ body{
 }
 #cat .txt{
   border-left: 1px solid #e1803c;
+  height: 265px;
   left: 30%;
 }
 #cat > img{
@@ -168,4 +170,5 @@ body{
 #sea .txt{
   left: 55%;
   border-left: 1px solid #fff;
+  height: 265px;
 }

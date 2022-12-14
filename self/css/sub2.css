@@ -47,10 +47,11 @@ nav i:hover{
 }
 #main .content span{
   border: 1px solid #fff;
-  border-radius: 60px;
+  color: #fff;
+  border-radius: 50%;
   font-size: 24px;
   font-family: "Pretendard-Thin";
-  padding: 0 10px;
+  padding: 5px 20px;
   box-sizing: border-box;
   background-color: #22be97;
 }
@@ -67,6 +68,9 @@ nav i:hover{
 
 /*베너*/
 
+#banner{
+  min-width: 1300px;
+}
 #banner .wrap{
   width: 880px;
   height: 750px;
