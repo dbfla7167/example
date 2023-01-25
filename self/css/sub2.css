@@ -1,12 +1,15 @@
 /*공통*/
 
+body{
+  background: #22be97 url(../img/line.png) center;
+}
+
 .num{
   font-size: 50px;
   font-family: "Pretendard";
   font-weight: bold;
   line-height: 70px;
   font-family: "Jalnan";
-  color: #333;
 }
 /*네비*/
 
@@ -22,7 +25,7 @@ nav i{
   padding: 10px;
   transition: all 0.5s;
   margin-top: 40px;
-  background-color: #78e7b5;
+  background-color: #22be97;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
 }
 nav i:hover{
@@ -34,7 +37,6 @@ nav i:hover{
   width: 100%; height: 970px;
   position: relative;
   color: #fff;
-  background: #78e7b5 url(../img/line.png) center/cover;
   min-width: 1300px;
 }
 #main .content{
@@ -45,12 +47,13 @@ nav i:hover{
 }
 #main .content span{
   border: 1px solid #fff;
-  border-radius: 60px;
+  color: #fff;
+  border-radius: 50%;
   font-size: 24px;
   font-family: "Pretendard-Thin";
-  padding: 0 10px;
+  padding: 5px 20px;
   box-sizing: border-box;
-  background-color: #78e7b5;
+  background-color: #22be97;
 }
 #main .content h1{
   font-size: 80px;
@@ -65,27 +68,30 @@ nav i:hover{
 
 /*베너*/
 
-
-
+#banner{
+  min-width: 1300px;
+}
 #banner .wrap{
-  width: 805px;
-  height: 680px;
+  width: 880px;
+  height: 750px;
   margin: 80px auto 80px;
   display: flex;
-  justify-content: space-around;
   position: relative;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 #banner .view{
   position: absolute;
   width: 291px; height: 180px;
-  bottom: 30px; left: 74.2px;
+  bottom: 96px; left: 84px;
   overflow: hidden;
-  
 }
 #banner .view > .slide{
   display: flex;
   position: absolute;
   top: 0px;
+  z-index: 2;
 }
 #banner .view > .slide img{
   width: 291px;
@@ -93,16 +99,15 @@ nav i:hover{
 #banner .bg{
   position: absolute;
   z-index: -10;
-  left: 60px;
-  bottom: 0px;
+  left: 70px;
+  bottom: 70px;
   width: 350px;
+  z-index: 1;
 }
 #banner .txt{
-  width: 380px;
+  width: 300px;
   height: 125px;
-  margin: 150px 0 0 80px;
-  padding-left: 12px;
-  box-sizing: border-box;
+  margin: 150px 50px 0 96px;
   line-height: 30px;
 }
 #banner .scroll{
@@ -110,7 +115,6 @@ nav i:hover{
   margin-top: 80px;
   border-radius: 20px;
   overflow-y: scroll;
-  background-color: #fff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 #banner .scroll::-webkit-scrollbar{
@@ -131,9 +135,8 @@ nav i:hover{
 
 #page{
   width: 100%;
-  padding: 120px 0;
+  padding: 90px 0 200px;
   box-sizing: border-box;
-  background: rgb(248, 248, 248) url(../img/line.png) center/cover;
   min-width: 1300px;
 }
 #page > .wrap{
@@ -158,10 +161,11 @@ nav i:hover{
   width: 950px;
   margin: auto;
   align-items: center;
+  padding-left: 95px;
+  box-sizing: border-box
 }
 #page .content > .scroll{
-  width: 480px; height: 580px;
-  margin: auto;
+  width: 450px; height: 580px;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 20px;
@@ -177,7 +181,7 @@ nav i:hover{
   transition: all 1s;
 }
 #page .content > .scroll img{
-  width: 454px;
+  width: 420px;
   display: block;
 }
 #page .content > .scroll::-webkit-scrollbar{
@@ -188,11 +192,10 @@ nav i:hover{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background: #ddd;
-
 }
 #page nav{
   position: absolute;
-  bottom: -85px; left: 23%;
+  bottom: -85px; left: 30%;
 }
 #page nav > button{
   width: 20px; height: 20px;
@@ -207,9 +210,11 @@ nav i:hover{
   transform: scale(1.2);
 }
 #page .txt{
-  width: 450px; height: 180px;
+  width: 280px; height: 260px;
   text-align: left;
-  padding: 30px 26px;
   box-sizing: border-box;
   line-height: 35px;
+  color: #fff;
+  background-color: #22be97;
+  margin-left: 30px;
 }

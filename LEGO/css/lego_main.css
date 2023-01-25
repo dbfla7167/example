@@ -1,22 +1,3 @@
-/*폰트*/
-
-@font-face{
-  font-family: "SEBANG Gothic";
-  src: url(../font/SEBANGGothic.ttf)format('truetype');}
-
-@font-face{
-  font-family: "Cafe24Ohsquare";
-  src: url(../font/Cafe24Ohsquare.ttf)format('truetype');}
-
-@font-face{
-  font-family: "Jalnan";
-  src: url(../font/Jalnan.ttf)format('truetype');}
-
-@font-face{
-  font-family: "Cafe24Ssurround";
-  src: url(../font/Cafe24Ssurround.ttf)format('truetype');}
-  
-
 
 /********/
 
@@ -497,11 +478,13 @@
   #ad{
     width: 1200px; height: 520px;
     margin: 130px auto 0;
+    min-width: 1300px;
   }
   #ad > #slider{
     width: 1200px; height: 520px;
     overflow: hidden;
     position: relative;
+    margin: auto;
   }
   #ad #viewer{
     height: 2080px;

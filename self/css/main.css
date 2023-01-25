@@ -56,16 +56,6 @@ nav ul{
   position: fixed;
   transform: scale(0.5);
 }
-/*
-#bg .sleft{
-  left: 16%;
-  top: 300px;
-}
-#bg .sright{
-  right: 12%;
-  top: 450px;
-}
-*/
 
 /*메인 타이틀*/
 
@@ -103,9 +93,11 @@ nav ul{
   100%{transform: translateX(-50%) scale(1);}
 }
 #main p{
-  width: 340px;
+  width: 380px;
   margin: 320px auto 0;
-  line-height: 24px;
+  line-height: 28px;
+  opacity: 0.9;
+  font-family: "Pretendard-Thin";
 }
 
 /*자기소개*/
@@ -220,8 +212,8 @@ nav ul{
 #license .content .box:hover .check{
   animation: move 0.6s reverse;
   transition: all 0.3s;
-  border: 1px solid greenyellow;
-  color: greenyellow;
+  border: 1px solid rgb(121, 255, 44);
+  color: rgb(121, 255, 44);
 }
 
 @keyframes move{
@@ -258,7 +250,7 @@ nav ul{
   cursor: pointer;
   margin-bottom: 30px;
 }
-#skill .content .thum span{
+#skill .content .thum .span{
   display: block;
   width: 208px; height: 34px;
   border: 1px solid #fff;
@@ -271,7 +263,7 @@ nav ul{
   font-family: "Pretendard-Thin";
   color: #fff;
 }
-#skill .content span > .inside{
+#skill .content .span > .inside{
   width: 0%;
   height: 96%;
   background-color: #fff;

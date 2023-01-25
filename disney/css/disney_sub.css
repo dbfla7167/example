@@ -84,9 +84,13 @@ header .gnb > li:first-child{
 
 /*최신작품*/
 
+#recent{
+  min-width: 1300px;
+}
 #recent > .wrap{
   width: 840px;
   text-align: center;
+  margin: auto;
 }
 #recent .wrap > .title{
   margin: 100px 0 30px;
@@ -156,10 +160,13 @@ header .gnb > li:first-child{
 
 /*올해 공개 예정 작품*/
 
+#year{
+  min-width: 1300px;
+}
 #year .wrap{
   width: 850px; height: 800px;
   text-align: center;
-  margin-top: 120px;
+  margin: 120px auto 0;
 }
 #year .title span{
   color: #555ce9;
